@@ -1,3 +1,3 @@
-class EquilateralTriangle: Triangle() {
+class EquilateralTriangle(_name: String) : Triangle(_name) {
 
 }

@@ -1,3 +1,3 @@
-class Circle: Shape() {
+class Circle(_name: String) : Shape(_name) {
 
 }

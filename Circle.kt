@@ -5,7 +5,7 @@ class Circle(_name: String) : Shape(_name) {
 
     // Initial Values
     private var radius: Double = 0.0
-    private var area: Double = radius.pow(2.0) * PI
+    private var area: Double = 0.0
 
     // Set Dimensions
     fun setDimensions(radius: Double) {

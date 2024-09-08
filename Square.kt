@@ -3,7 +3,7 @@ class Square(_name: String) : Shape(_name) {
     // Initial Values
     private var length: Double = 0.0
     private var height: Double = 0.0
-    private var area: Double = length * height
+    private var area: Double = 0.0
 
     // Set Dimensions
     fun setDimensions(length: Double, height: Double) {

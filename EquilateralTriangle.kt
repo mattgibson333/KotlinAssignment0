@@ -1,0 +1,3 @@
+class EquilateralTriangle: Triangle() {
+
+}

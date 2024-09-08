@@ -7,7 +7,7 @@ open class Triangle(_name: String) : Shape(_name) {
     private var side2: Double = 0.0
     private var side3: Double = 0.0
     private var perimiter: Double = 0.0
-    var halfP: Double = 0.0
+    private var halfP: Double = 0.0
     private var area: Double = 0.0
 
     // Set Dimensions

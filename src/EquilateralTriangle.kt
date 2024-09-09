@@ -12,17 +12,22 @@ class EquilateralTriangle(_name: String) : Triangle(_name) {
     fun setDimensions(side: Double) {
         this.side = side
         this.perimiter = side * 3
-        this.halfP = side * 0.5
+        this.halfP = perimiter * 0.5
+        getArea()
     }
 
     // Print Dimensions
     override fun printDimensions() {
+        println("Name: $name")
         println("Side: $side")
+        println("Area: $area")
+        println()
     }
 
     // Get Area
     override fun getArea(): Double {
-        return sqrt(halfP * ((halfP- side) * (halfP- side) * (halfP- side)))
+        this.area = sqrt(halfP * ((halfP- side) * (halfP- side) * (halfP- side)))
+        return area
     }
 
 }

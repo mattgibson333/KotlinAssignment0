@@ -10,11 +10,15 @@ class Circle(_name: String) : Shape(_name) {
     // Set Dimensions
     fun setDimensions(radius: Double) {
         this.radius = radius
+        getArea()
     }
 
     // Print Dimensions
     override fun printDimensions() {
+        println("Name: $name")
         println("Radius: $radius")
+        println("Area: $area")
+        println()
     }
 
     // Get Area

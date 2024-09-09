@@ -9,11 +9,15 @@ class Square(_name: String) : Shape(_name) {
     fun setDimensions(length: Double, height: Double) {
         this.length = length
         this.height = height
+        getArea()
     }
 
     // Print Dimensions
     override fun printDimensions() {
+        println("Name: $name")
         println("Length: $length Height: $height")
+        println("Area: $area")
+        println()
     }
 
     // Get Area

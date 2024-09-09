@@ -17,11 +17,15 @@ open class Triangle(_name: String) : Shape(_name) {
         this.side3 = side3
         this.perimiter = side1 + side2 + side3
         this.halfP = perimiter * 0.5
+        getArea()
     }
 
     // Print Dimensions
     override fun printDimensions() {
+        println("Name: $name")
         println("Side 1: $side1 Side 2: $side2 Side 3: $side3")
+        println("Area: $area")
+        println()
     }
 
     // Get Area
